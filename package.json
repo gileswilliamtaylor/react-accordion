@@ -1,0 +1,31 @@
+{
+  "name": "react-accordion",
+  "version": "1.0.0",
+  "description": "React Accordion",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giles Taylor",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "classnames": "^2.2.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jss": "^9.8.7",
+    "jss-preset-default": "^4.5.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-motion": "^0.5.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {}
+}
